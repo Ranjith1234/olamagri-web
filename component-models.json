@@ -190,5 +190,33 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "cta",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "ctaText",
+        "label": "CTA Label",
+        "value": ""
+      },
+      {
+        "component": "aem-content",
+        "name": "ctaLink",
+        "value": "",
+        "label": "CTA Link",
+        "valueType": "string",
+        "validation": {
+              "rootPath": "/content/olamagri-web"
+          }
+      },
+      {
+        "component": "boolean",
+        "label": "Open in new Tab",
+        "name": "linkTarget",
+        "valueType": "boolean"
+      }
+    ]
   }
 ]
