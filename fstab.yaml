@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p110337-e1077223.adobeaemcloud.com/bin/franklin.delivery/ranjith1234/olamagri-web/main"
+    url: "http://localhost:4502/bin/franklin.delivery/ranjith1234/olamagri-web/main"
     type: "markup"
     suffix: ".html"
