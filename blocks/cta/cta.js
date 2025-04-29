@@ -1,4 +1,8 @@
 export default function decorate(block) {
   /* change to Anchor  */
-  block.append(block);
+  const a = document.createElement('a');
+  a.href = 'index.html';
+  block.textContent = 'Sample';
+  block.textContent = '';
+  block.append(a);
 }
